@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body, html{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+  }
+  
+  main{
+      width: 100vw;
+      height: 100vh;
+      background-color: #1a064d;
+  }
+  
+  marquee{
+    font-size: 30px;
+    color: white;
+  }
+  
+  .title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #262626;
+      color: white;
+      text-transform: uppercase;
+      /* padding: 2rem; */
+      height: 15vh;
+      font-size: 50px;
+      font-family: 'Black Ops One', cursive;
+  }
+  
+  .show-score{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+  }
+  
+  .group{
+      text-align: center;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: calc(100vh - 15vh);
+  }
+  
+  .change-scores{
+      display: flex;
+      gap: .6rem;
+  }
+  
+  .number{
+      border: 1px solid #6ae4b3;
+      color: #6ae4b3;
+      padding: 3px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: 'Black Ops One', cursive;
+
+  }
+  
+  .number:hover{
+      background-color: #c2f0dd20;
+  }
+  
+  .number:active{
+      background-color: #f4435b9b;
+  }
+  
+  .home{
+      color: white;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-family: 'Black Ops One', cursive;
+  }
+  
+  .scores{
+      background-color: peru;
+      color: #f4435a;
+      font-size: 4rem;
+      width: 120px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem;
+      font-family: 'Black Ops One', cursive;
+      
+  }
+  
+  .change-scores{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .btn{
+      background-color: #826ae4;
+      color: #4d3906;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Black Ops One', cursive;
+  }
+  .Heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #f4435a;
+  }
+  .btn:hover{
+      background-color: #5cc69c;
+  }
+  
+  .btn:active{
+      box-shadow: 0px 0px 20px rgba(38, 38, 38, 0.668);
+  }
+  
+  .main-score{
+      margin-bottom: 30px;
+  }
